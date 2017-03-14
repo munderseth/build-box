@@ -10,7 +10,8 @@ dependencies:
 
 test:
   override:
-    - testspace test.xml 
+    # run tests 
     
   post:
+    - testspace test.xml
     - printenv
