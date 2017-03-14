@@ -10,8 +10,7 @@ dependencies:
 
 test:
   override:
-    # run tests 
+    - printenv > printenv.txt
     
   post:
-    - testspace test.xml
-    - printenv
+    - testspace test.xml "+printenv.txt{environment variables}"
