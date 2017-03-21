@@ -7,10 +7,15 @@ before_install:
 
 install:
   - echo "install .."
+
+env:
+  matrix:
+   - JOB=ABC
+   - JOB=DEF
   
 script:
   - echo "script .."
   - printenv > printenv.txt
  
 after_script:
-  - testspace test.xml "+printenv.txt{environment variables}"
+  - testspace [$JOB]test.xml "+printenv.txt{environment variables}"
