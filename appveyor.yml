@@ -12,10 +12,11 @@ install:
 build_script:
   - echo This is my custom build script
   - set > printenv.txt
+  - git remote get-url origin > get-url.txt
  
 # to run your custom scripts instead of automatic tests
 test_script:
   - echo This is my custom test script
   
 after_test:
-  - testspace test.xml "+printenv.txt{environment variables}"
+  - testspace get-url.txt test.xml "+printenv.txt{environment variables}"
