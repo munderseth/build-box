@@ -8,6 +8,8 @@ Trying new client - `1.8.469`
 
 Trying new client - `1.8.471`
 
+Trying new client - `1.8.472`
+
 ----
 
 New commit.1
