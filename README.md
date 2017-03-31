@@ -9,3 +9,5 @@ adding a forced commit
 New Client - 1.8.469
 
 New Client - `1.8.471`
+
+New Client - `1.8.479`
