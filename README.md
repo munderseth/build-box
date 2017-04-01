@@ -14,3 +14,4 @@ New Client - `1.8.474`
 
 New Client - `1.8.475`
 * commit.FR.b
+* commit.FR.c
