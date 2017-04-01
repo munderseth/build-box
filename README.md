@@ -15,6 +15,7 @@ Trying new client - `1.8.475`
 * commit.a
 * commit.b
 * commit.c
+* commit.d
 ----
 
 New commit.1
