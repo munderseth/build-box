@@ -12,6 +12,8 @@ Trying new client - `1.8.472`
 
 Trying new client - `1.8.475`
 
+* commit.a
+* commit.b
 ----
 
 New commit.1
