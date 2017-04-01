@@ -10,4 +10,6 @@ New Client - 1.8.469
 
 New Client - `1.8.471`
 
-New Client - `1.8.479`
+New Client - `1.8.474`
+
+New Client - `1.8.475`
