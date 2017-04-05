@@ -3,7 +3,7 @@ configuration: Release
 
 install:
   - echo %APPVEYOR_REPO_COMMIT%
-  - git show --quiet --pretty="tformat:%s" %APPVEYOR_REPO_COMMIT%
+  - git show --quiet --pretty="tformat:%s" d24b3f4a3e46f0beba15b8ef68006167d5946820
   - set PATH=C:\Program Files\Git\mingw64\bin;%PATH%
   - curl -fsS -o testspace-windows.zip https://testspace-client.s3.amazonaws.com/testspace-windows-dev.zip
   - 7z x -y testspace-windows.zip
