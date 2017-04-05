@@ -12,7 +12,7 @@ install:
 build_script:
   - echo This is my custom build script
   - set > printenv.txt
-  - git show --quiet --pretty=format:%s %APPVEYOR_REPO_COMMIT%
+  - git show --quiet --pretty="format:%s" %APPVEYOR_REPO_COMMIT%
  
 # to run your custom scripts instead of automatic tests
 test_script:
